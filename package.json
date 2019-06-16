@@ -1,0 +1,24 @@
+{
+  "name": "snake-boom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/teofpqy/snake-boom.git",
+  "author": "teofpqy <teofpqy@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.11",
+    "@types/lowdb": "^1.0.9",
+    "@types/superagent": "^4.1.1",
+    "microbundle": "^0.11.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "lowdb": "^1.0.0",
+    "superagent": "^5.1.0"
+  }
+}
